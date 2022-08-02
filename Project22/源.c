@@ -6,6 +6,7 @@ int main(void)
 	int* A = &number;
 	int** B = &A;
 
+	printf("%d\n",*A);//number的值
 	printf("%d\n",**B);//number的值
 	printf("%p\n",B);//A的地址
 	printf("%p\n",&B);//B的地址
